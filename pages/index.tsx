@@ -4,9 +4,7 @@ import Section, {
   SectionExperience,
   SectionManuscript,
 } from '@components/section'
-import SEO from '@components/seo'
 
-import { description } from '@configs/seo'
 import { interest } from '@configs/author'
 
 export const getStaticProps = async () => {
@@ -30,7 +28,6 @@ const IndexPage = ({
 }: InferGetStaticPropsType<typeof getStaticProps>) => {
   return (
     <div className="index">
-      <SEO title="Homepage" description={`${description}`} />
       <Section title="research interest">{interest}</Section>
       <Section title="publications">
         {publications.map((publication, idx) => {

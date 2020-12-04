@@ -141,7 +141,7 @@ const App = ({ Component, pageProps }: AppProps) => {
         <link
           rel="mask-icon"
           href="/icons/safari-pinned-tab.svg"
-          color="#00000"
+          color="#000000"
         />
 
         {/* <!-- Windows  --> */}
