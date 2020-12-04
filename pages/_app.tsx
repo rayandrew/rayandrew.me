@@ -24,14 +24,12 @@ const App = ({ Component, pageProps }: AppProps) => {
         <link href="/manifest.json" rel="manifest" />
         <meta name="keywords" content={seo.keywords} />
 
-        <meta
-          name="viewport"
-          content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"
-        />
+        <meta content="IE=edge" httpEquiv="X-UA-Compatible" />
+        <meta content="width=device-width, initial-scale=1" name="viewport" />
         <meta name="format-detection" content="telephone=no" />
 
         {/* <!-- Android  --> */}
-        <meta name="theme-color" content="black" />
+        <meta name="theme-color" content="#000000" />
         <meta name="mobile-web-app-capable" content="yes" />
         <link
           rel="icon"
