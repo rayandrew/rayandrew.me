@@ -3,10 +3,7 @@
   html,
   body,
   body > div:first-child,
-  div#__next
-  /* div#__next > div,
-  div#__next > div > div */
-  /* div#__next > div > div > div */ {
+  div#__next {
     height: 100%;
   }
 
@@ -45,24 +42,4 @@
       @apply dark:bg-black;
     }
   }
-
-  /* .invert-bg-color {
-    @apply dark:bg-color;
-  } */
-
-  /* @variants dark {
-    .invert-color {
-      @apply color;
-    }
-
-    .invert-bg-color {
-      @apply bg-color;
-    }
-  } */
-
-  /* @variants width {
-    .fit-content {
-      width: fit-content;
-    }
-  } */
 }
