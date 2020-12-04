@@ -40,7 +40,8 @@
     "react": "npm:@preact/compat",
     "react-dom": "npm:@preact/compat",
     "react-icons": "^4.1.0",
-    "tailwindcss": "^2.0.1"
+    "tailwindcss": "^2.0.1",
+    "webp-loader": "^0.6.0"
   },
   "devDependencies": {
     "@types/node": "^14.14.10",

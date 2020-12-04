@@ -33,7 +33,7 @@ export const openGraph: OpenGraph = {
       alt: author.name,
     },
     {
-      url: `https://${author.domain}/logo.png`,
+      url: `https://${author.domain}/logo.webp`,
       width: 512,
       height: 512,
       alt: `Logo of ${author.name}`,
