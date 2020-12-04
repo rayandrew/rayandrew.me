@@ -185,7 +185,7 @@ const App = ({ Component, pageProps }: AppProps) => {
         url={seo.siteUrl}
         sameAs={author.socials}
       />
-      <ColorModeProvider>
+      <ColorModeProvider useSystemColorMode>
         <Nav />
         <Layout>
           <Component {...pageProps} />
