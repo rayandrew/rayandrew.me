@@ -15,7 +15,7 @@ export const keywords =
 export const twitter = {
   handle: '@rayandrew_os',
   site: '@rayandrew_os',
-  cardType: 'summary_large_image',
+  cardType: 'summary',
 }
 
 export const openGraph: OpenGraph = {
@@ -33,7 +33,7 @@ export const openGraph: OpenGraph = {
       alt: author.name,
     },
     {
-      url: `https://${author.domain}/logo.png`,
+      url: `https://${author.domain}/logo-square.png`,
       width: 512,
       height: 512,
       alt: `Logo of ${author.name}`,

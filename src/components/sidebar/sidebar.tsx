@@ -23,11 +23,11 @@ const Sidebar: React.FC = () => {
         <div className="sidebar_inner_pic">
           <div className="sidebar_inner_pic_override">
             <img
-              src={require('@images/ray.png')}
+              src={require('@images/ray.png?webp')}
               alt="Ray Andrew"
               className="sidebar_inner_pic_override_img"
-              // width={250}
-              // height={265}
+              width={158}
+              height={158}
             />
           </div>
         </div>
