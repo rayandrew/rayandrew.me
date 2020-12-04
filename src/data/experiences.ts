@@ -9,20 +9,20 @@ const experiences: Experiences = [
       {
         title: 'LIBROS',
         description:
-          'Implementing part of cancellation mechanism using ML approach for mitigating tail latency in distributed systems',
+          'Implementing part of cancellation mechanism using ML approach to mitigate tail latency in distributed systems',
       },
       {
         title: 'Bug Study',
         description:
-          'Collecting, categorizing, and analyzing bugs in well-known distributed systems such as Hadoop, Kafka, and many more',
+          'Collecting, categorizing, and analyzing bugs in well-known distributed systems (e.g. Hadoop, Kafka, etc.)',
       },
       {
         title: 'Performance Engineering',
         description:
-          'Researching about ML approaches for enhancing performance on distributed (cloud) systems (eg: predictive autoscaling)',
+          'Researching about ML approaches to enhance performance of distributed (cloud) systems (e.g. predictive autoscaling)',
       },
     ],
-    from: 'jan 2018',
+    from: 'jan 2019',
     to: 'present',
   },
   {
@@ -33,7 +33,7 @@ const experiences: Experiences = [
       {
         title: 'Automated Tending Machine + Contamination Detection (ATM-CD)',
         description:
-          'Creating IoT-systems to automatically tend to the fungi and detect contaminants',
+          'Creating IoT-systems to automatically tend to fungi and detect contaminants',
       },
       {
         title: 'Larvae Behavior Tracker',
@@ -43,7 +43,7 @@ const experiences: Experiences = [
       {
         title: 'Accounting (Journaling) Dashboard',
         description:
-          'Implementing web-based system to keep track of accounting journal to ensure the financial transparency',
+          'Implementing web-based system to keep track of accounting journal and to ensure the financial transparency',
       },
     ],
     from: 'aug 2019',

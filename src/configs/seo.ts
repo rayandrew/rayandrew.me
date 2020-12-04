@@ -1,13 +1,16 @@
+import type { OpenGraph } from 'next-seo/lib/types'
+
 import author from './author'
 import { altLanguage } from './site'
 
-export const title = `${author.name}`
+export const title = author.name
+export const siteName = `${author.name} - ${author.title}`
 // export const titleTemplate = `%s - ${author.name}`
-export const description = `${author.name} - Computer Science Researcher`
+export const description = `Check how ${author.name} (Computer Science Researcher) build scalable and distributed systems`
 export const siteUrl = `https://${author.domain}`
 
 export const keywords =
-  'Computer Science, CS, Researcher, System, Computer Systems, Distributed Systems, Storage Systems, Machine Learning, ML, Operating System, OS, Chicago, GIK Lab, ITB, Emmerich'
+  'Computer Science, CS, Researcher, CS Researcher, System, Cloud, Computer Systems, Distributed Systems, Storage Systems, Machine Learning, ML, Operating System, OS, Chicago, GIK Lab, ITB, Institut Teknologi Bandung, Emmerich'
 
 export const twitter = {
   handle: '@rayandrew_os',
@@ -15,25 +18,25 @@ export const twitter = {
   cardType: 'summary_large_image',
 }
 
-export const openGraph = {
+export const openGraph: OpenGraph = {
   type: 'website',
   locale: altLanguage,
-  url: `https://${author.domain}`,
-  title: `${author.name}`,
-  description: `${author.name} - Computer Science Researcher`,
-  site_name: `${author.name} - Computer Science Researcher`,
+  url: siteUrl,
+  title,
+  description,
+  site_name: siteName,
   images: [
     {
-      url: '/ray.png',
-      width: 1240,
-      height: 480,
-      alt: `${author.name} - Computer Science Researcher`,
+      url: `https://${author.domain}/ray.png`,
+      width: 389,
+      height: 467,
+      alt: author.name,
     },
     {
-      url: '/ray.png',
-      width: 1012,
-      height: 506,
-      alt: `${author.name} - Computer Science Researcher`,
+      url: `https://${author.domain}/logo.png`,
+      width: 512,
+      height: 512,
+      alt: `Logo of ${author.name}`,
     },
   ],
 }
