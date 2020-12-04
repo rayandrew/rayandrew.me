@@ -1,17 +1,15 @@
 import { NextSeo, NextSeoProps } from 'next-seo'
 
-import seo from '@configs/seo'
+// import seo from '@configs/seo'
 
 import { isDev } from '@utils/env'
 
 type SeoProps = Omit<NextSeoProps, 'titleTemplate'> & {
-  title: string
+  title?: string
   description: string
 }
 
-const SEO: React.FC<SeoProps> = (props) => (
-  <NextSeo {...props} titleTemplate={seo.titleTemplate} />
-)
+const SEO: React.FC<SeoProps> = (props) => <NextSeo {...props} />
 
 if (isDev) {
   SEO.displayName = 'SEO'

@@ -2,7 +2,7 @@ import author from './author'
 import { altLanguage } from './site'
 
 export const title = `${author.name}`
-export const titleTemplate = `%s - ${author.name}`
+// export const titleTemplate = `%s - ${author.name}`
 export const description = `${author.name} - Computer Science Researcher`
 export const siteUrl = `https://${author.domain}`
 
@@ -40,7 +40,7 @@ export const openGraph = {
 
 const seo = {
   title,
-  titleTemplate,
+  // titleTemplate,
   keywords,
   description,
   siteUrl,
