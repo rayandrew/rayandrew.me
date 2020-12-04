@@ -13,7 +13,7 @@ export const repo = {
 }
 
 export const analytics = {
-  google: '',
+  google: 'G-5EXQEGPMQ0',
 }
 
 const site = {
