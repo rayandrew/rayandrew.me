@@ -27,16 +27,16 @@ export const openGraph: OpenGraph = {
   site_name: siteName,
   images: [
     {
-      url: `https://${author.domain}/logo.png`,
-      width: 389,
-      height: 467,
-      alt: `Logo of ${author.name}`,
-    },
-    {
       url: `https://${author.domain}/ray.png`,
       width: 389,
       height: 467,
       alt: author.name,
+    },
+    {
+      url: `https://${author.domain}/logo.png`,
+      width: 512,
+      height: 512,
+      alt: `Logo of ${author.name}`,
     },
   ],
 }
