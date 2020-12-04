@@ -26,7 +26,7 @@ module.exports = {
       fontFamily: {
         sans: [
           // 'Lato',
-          // 'Inter',
+          'Inter',
           'ui-sans-serif',
           'system-ui',
           '-apple-system',

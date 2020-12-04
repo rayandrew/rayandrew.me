@@ -26,7 +26,7 @@ const App = ({ Component, pageProps }: AppProps) => {
 
         <meta
           name="viewport"
-          content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,uc-fitscreen=yes"
+          content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"
         />
         <meta name="format-detection" content="telephone=no" />
 
@@ -141,7 +141,7 @@ const App = ({ Component, pageProps }: AppProps) => {
         <link
           rel="mask-icon"
           href="/icons/safari-pinned-tab.svg"
-          color="#ffffff"
+          color="#00000"
         />
 
         {/* <!-- Windows  --> */}
@@ -177,7 +177,7 @@ const App = ({ Component, pageProps }: AppProps) => {
         {/* <!-- Orientation  --> */}
         <meta name="screen-orientation" content="portrait" />
       </Head>
-      <GoogleFonts href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" />
+      <GoogleFonts href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Inter:wght@200;500&display=swap" />
       <DefaultSeo {...seo} />
       <SocialProfileJsonLd
         type="Person"
