@@ -6,7 +6,7 @@ import { altLanguage } from './site'
 export const title = author.name
 export const siteName = `${author.name} - ${author.title}`
 // export const titleTemplate = `%s - ${author.name}`
-export const description = `Check how ${author.name} (Computer Science Researcher) building scalable and distributed systems`
+export const description = `Check how ${author.name} (Computer Science Researcher) build scalable and distributed systems`
 export const siteUrl = `https://${author.domain}`
 
 export const keywords =
