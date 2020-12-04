@@ -1,6 +1,6 @@
 .nav {
   @apply flex items-center justify-between;
-  @apply px-8 pt-8 pb-4 sm:px-16 sm:pt-8 sm:pb-8;
+  @apply px-8 pt-8 pb-4 md:px-16 md:pb-8;
   &_inner {
     @apply flex md:items-center;
     @apply flex-col md:flex-row;
