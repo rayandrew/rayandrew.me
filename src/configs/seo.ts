@@ -33,9 +33,9 @@ export const openGraph: OpenGraph = {
       alt: author.name,
     },
     {
-      url: `https://${author.domain}/icons/ms-icon-144x144.png`,
-      width: 144,
-      height: 144,
+      url: `https://${author.domain}/logo.png`,
+      width: 512,
+      height: 512,
       alt: `Logo of ${author.name}`,
     },
   ],
