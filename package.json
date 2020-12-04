@@ -21,6 +21,7 @@
     ]
   },
   "dependencies": {
+    "babel-plugin-transform-remove-console": "^6.9.4",
     "cssnano": "^4.1.10",
     "imagemin-optipng": "^8.0.0",
     "lost": "^8.3.1",
