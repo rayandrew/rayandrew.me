@@ -4,6 +4,7 @@
   "description": "Check how Ray Andrew (Computer Science Researcher) build scalable and distributed systems",
   "theme_color": "#000000",
   "background_color": "#000000",
+  "start_url": "/",
   "display": "fullscreen",
   "icons": [
     {
