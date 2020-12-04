@@ -1,0 +1,33 @@
+.layout {
+  /* @apply h-full flex; */
+  @apply block;
+  /* @apply flex flex-1; */
+  @apply px-8;
+  @apply leading-normal tracking-normal;
+  @apply w-full h-full;
+  /* @apply clear-both; */
+  @apply overflow-visible md:overflow-auto;
+
+  &_inner {
+    /* lost-column: 4/12; */
+  }
+}
+
+@screen md {
+  .layout {
+    @apply px-16;
+    /* @apply w-full; */
+    &_inner {
+      @apply py-4;
+      /* padding: 25px 20px; */
+      lost-column: 8/12;
+    }
+  }
+}
+
+/* @screen lg {
+  .layout {
+    &_inner {
+    }
+  }
+} */

@@ -1,0 +1,68 @@
+/* Custom base styles */
+@layer base {
+  html,
+  body,
+  body > div:first-child,
+  div#__next
+  /* div#__next > div,
+  div#__next > div > div */
+  /* div#__next > div > div > div */ {
+    height: 100%;
+  }
+
+  body {
+    @apply font-sans;
+    @apply color bg-color;
+    @apply transition-colors duration-300 ease-in-out;
+  }
+}
+
+/* Custom components */
+@layer components {
+  @import './components/link';
+  @import './components/nav';
+  @import './components/layout';
+  @import './components/sidebar';
+  @import './components/section';
+}
+
+/* Custom utilities */
+@layer utilities {
+  .color {
+    @apply text-gray-800;
+  }
+
+  .bg-color {
+    @apply bg-gray-100;
+  }
+
+  @variants dark {
+    .color {
+      @apply dark:text-gray-100;
+    }
+
+    .bg-color {
+      @apply dark:bg-black;
+    }
+  }
+
+  /* .invert-bg-color {
+    @apply dark:bg-color;
+  } */
+
+  /* @variants dark {
+    .invert-color {
+      @apply color;
+    }
+
+    .invert-bg-color {
+      @apply bg-color;
+    }
+  } */
+
+  /* @variants width {
+    .fit-content {
+      width: fit-content;
+    }
+  } */
+}

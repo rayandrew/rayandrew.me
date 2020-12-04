@@ -1,0 +1,109 @@
+.section {
+  @apply mb-4;
+
+  &_title {
+    @apply text-2xl uppercase font-serif tracking-tight;
+    @apply mb-2;
+  }
+
+  &_inner {
+    @apply font-extralight;
+  }
+
+  &_manu {
+    @apply mb-4;
+
+    &_title {
+      @apply text-base text-justify font-medium;
+      @apply mr-4;
+    }
+
+    &_additional {
+      @apply text-sm;
+
+      &_authors {
+        @apply my-1;
+        &_own {
+          @apply text-accent dark:text-accent-dark;
+          @apply font-semibold;
+        }
+      }
+
+      &_info {
+        @apply flex;
+        @apply uppercase text-xs;
+        @apply my-2;
+
+        &_status {
+        }
+
+        &_year {
+          @apply ml-1;
+        }
+      }
+    }
+  }
+
+  &_exp {
+    @apply mb-4;
+
+    &_meta {
+      @apply flex flex-col lg:flex-row;
+      @apply lg:items-center justify-between;
+
+      &_institution {
+        @apply text-base font-medium;
+        @apply mr-4;
+        @apply mb-1;
+
+        @apply font-normal;
+
+        &_name {
+          @apply py-1 px-2;
+          @apply w-fit-content md:w-max;
+          @apply rounded-sm;
+          @apply bg-black dark:bg-gray-100;
+          @apply text-gray-100 dark:text-gray-800;
+        }
+
+        &_icon {
+          @apply bg-gray-100 dark:bg-black;
+          @apply text-gray-800 dark:text-gray-100;
+        }
+      }
+
+      &_duration {
+        @apply flex;
+        @apply uppercase;
+        @apply font-extralight;
+        @apply text-sm;
+        &_entry {
+          @apply ml-2;
+        }
+      }
+    }
+
+    &_title {
+    }
+
+    &_projects {
+      @apply mt-2;
+      @apply text-sm;
+      &_entry {
+        @apply mx-0 my-2;
+        &_title {
+          @apply font-semibold;
+          hyphens: auto;
+        }
+        &_description {
+        }
+      }
+    }
+  }
+}
+
+@screen md {
+  .section {
+    @apply mb-5;
+  }
+}

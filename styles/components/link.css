@@ -1,0 +1,13 @@
+.link {
+  @apply text-accent dark:text-accent-dark;
+  @apply font-bold;
+}
+
+.link_icon {
+  @apply self-center text-current;
+  @apply mb-1 mx-2;
+  @apply hidden md:inline-flex;
+  /* display: inline-flex;
+  align-self: center;
+  color: currentColor; */
+}
