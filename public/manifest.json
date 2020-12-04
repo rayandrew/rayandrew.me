@@ -1,6 +1,7 @@
 {
   "name": "Ray Andrew",
   "short_name": "Ray Andrew",
+  "description": "Check how Ray Andrew (Computer Science Researcher) build scalable and distributed systems",
   "theme_color": "#000000",
   "background_color": "#000000",
   "display": "fullscreen",
@@ -40,6 +41,11 @@
       "sizes": "192x192",
       "type": "image/png",
       "density": "4.0"
+    },
+    {
+      "src": "/logo.png",
+      "type": "image/png",
+      "sizes": "512x512"
     }
   ]
 }
