@@ -1,6 +1,6 @@
 export const name = 'Ray Andrew'
 export const full_name = 'Ray Andrew Obaja Sinurat'
-export const pub_name = 'Ray A. O. Sinurat'
+export const pub_name = 'Ray Andrew O. S.'
 export const title = 'Computer Science Researcher'
 export const facebook = 'https://www.facebook.com/rayandrew.os'
 export const instagram = 'https://instagram.com/rayandrew.os/'
