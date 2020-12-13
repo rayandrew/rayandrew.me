@@ -18,7 +18,7 @@ import seo from '@configs/seo'
 const App = ({ Component, pageProps }: AppProps) => {
   return (
     <>
-      <Head>
+      <Head key="site-meta">
         <link rel="icon" href="/favicon.ico" type="image/x-icon" />
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
         <link href="/manifest.json" rel="manifest" />
