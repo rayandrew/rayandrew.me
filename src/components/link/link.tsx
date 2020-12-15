@@ -47,7 +47,16 @@ const Link = React.memo(
     // eslint-disable-next-line react-hooks/exhaustive-deps
     const isExternal = React.useMemo(() => isSimpleExternalUrl(href), [])
     if (isExternal)
-      return <BaseLink {...props} href={href} ref={ref} isExternal />
+      return (
+        <BaseLink
+          {...props}
+          href={href}
+          ref={ref}
+          isExternal
+          target="_blank"
+          rel="noopener noreferrer"
+        />
+      )
 
     const NextLink = dynamic(() => import('next/link'))
 
