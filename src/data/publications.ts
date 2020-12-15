@@ -26,7 +26,8 @@ const publications: Publications = [
       'Haryadi S. Gunawi',
     ],
     status: 'ready',
-    link: 'https://bit.ly/mitmemPrediction',
+    link:
+      'https://newtraell.cs.uchicago.edu/research/publications/techreports/TR-2020-11',
   },
   {
     title: 'Computer Vision-Based Palm Full Fruit Bunch Automated Grader',
